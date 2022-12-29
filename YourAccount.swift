@@ -39,7 +39,7 @@ struct YourAccount: View {
             VStack {
                 
                 Text("Apple Watch linked to account.")
-                    .font(.title)
+                    .font(.title2)
             }
                 
                 
