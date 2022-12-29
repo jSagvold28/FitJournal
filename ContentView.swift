@@ -33,6 +33,12 @@ struct ContentView: View {
                         Text("Log History")
                             .font(.title3)
                     }
+                    
+                    NavigationLink {
+                        YourAccount()
+                    } label: {
+                        Text("Account")
+                    }
                 }.navigationTitle("Workout Logging")
             }
         }
