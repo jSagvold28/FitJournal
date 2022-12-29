@@ -51,11 +51,11 @@ struct ContentView: View {
                 
                 TextField("Calories Burnt", text: $CaloriesBurnt)
                     .padding(.all)
-                    .keyboardType(.numberPad)
+                    .keyboardType(.decimalPad)
                 
                 TextField("Duration", text: $Duration)
                     .padding(.all)
-//                    .keyboardType(.)
+//                    .keyboardType)(.)
                 
                 Toggle("One Ring Closed", isOn: $RingClosed)
                     .padding(.all)
